@@ -1,0 +1,11 @@
+# UA-DETRAC 数据集配置文件
+# 由 convert_to_yolo.py 自动生成
+# 本文件仅供参考, 实际使用 datasets/ua-detrac/data.yaml
+
+path: datasets/ua-detrac
+train: images/train
+val: images/val
+test: images/test
+
+nc: 4
+names: ["car", "van", "bus", "others"]
